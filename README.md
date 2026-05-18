@@ -2,28 +2,6 @@
 
 A structured repository for documenting LeetCode problem solutions with complexity analysis, pattern notes, and reusable problem-solving strategies.
 
-## Repository Structure
-
-```
-leetcode-problems/
-├── README.md
-└── problems/
-    └── <problem-number>-<problem-slug>/
-        └── solution.py          # Solution with full documentation
-```
-
-## Solution File Format
-
-Each solution file follows a consistent documentation standard:
-
-```
-Problem       — Full problem statement and constraints
-Test Cases    — Input/output examples with edge cases
-Solution      — Accepted implementation with inline comments
-Complexity    — Time and space complexity with step-by-step justification
-Tips          — Patterns, techniques, and cues for recognizing similar problems
-```
-
 ## Problem Categories
 
 | Category | Description |
