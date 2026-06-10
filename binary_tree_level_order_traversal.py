@@ -8,7 +8,7 @@ from collections import deque
 #         self.left = left
 #         self.right = right
 class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+    def levelOrder(self, root: Optional['TreeNode']) -> List[List[int]]:
         if not root:
             return []
             
@@ -29,3 +29,13 @@ class Solution:
 
             res.append(lis)
         return res
+
+'''
+Time Complexity: O(N)
+- Where N is the total number of nodes in the binary tree. 
+- We visit each node exactly once during the BFS traversal.
+
+Space Complexity: O(N)
+- In the worst case (a perfectly balanced tree), the maximum number of nodes in the queue is at the last level, which is roughly N/2. 
+- Therefore, the space complexity is O(N) to hold the nodes in the queue, plus O(N) to store the result list `res`.
+'''
